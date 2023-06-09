@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #111111, #222222);
+  color: white;
+}
+
 .App {
   text-align: center;
 }

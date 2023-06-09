@@ -1,0 +1,62 @@
+.outer-container {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding:0 4em;
+    color: white;
+}
+
+.right-container {
+    width: 70%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color:white;
+    font-size: 22px;
+    cursor: pointer;
+
+    
+}
+
+.logo-style {
+    height: 90px;
+}
+
+
+
+
+/******************* Mobile Style ******************************/
+@media (max-width:768px) {
+    .outer-container {
+        height: 64px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        padding:0 5px;
+        color: white;
+    }
+    
+    .right-container {
+        width: 70%;
+        margin-left: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .navbar-button {
+        border: none;
+        background-color: rgba(0,0,0,0);
+        color:white;
+        font-size: 12px;
+        cursor: pointer;   
+    }
+    .logo-style {
+        height: 62px;
+    }
+}

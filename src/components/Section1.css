@@ -1,0 +1,13 @@
+.table-row {
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding: 10px;
+}
+
+.download-performance-button {
+    border: none;
+    font-size: 16px;
+    padding: 0.75em;
+    font-weight: 500;
+    margin-top: 10px;
+}
