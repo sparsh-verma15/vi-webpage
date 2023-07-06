@@ -10,7 +10,7 @@ const Section2 = () => {
 			<div className="text-size1">Investment Process</div>
 			<Row>
 				<Col md={6} xs={12}>
-                    <Image src={flowchart} fluid/>
+                    <Image src={flowchart} style={{height:"600px"}}/>
                 </Col>
 				<Col className="text-start" md={6} xs={12}>
                     <Container>

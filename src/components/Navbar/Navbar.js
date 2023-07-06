@@ -39,6 +39,16 @@ const Navbar = () => {
 				>
 					Team
 				</Link>
+				<Link className="navbar-button"
+					activeClass="active"
+					to="section4"
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={250}
+				>
+					Contact Us
+				</Link>
 			</div>
 		</div>
 	);
