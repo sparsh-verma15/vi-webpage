@@ -1,8 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import './globalStyles.css'
-import graphLeft from "../images/numari-one-graph.png"
-import graphRight from "../images/numerai-supreme-graph.png"
 import ChartComponent from "./ChartsComponent";
 
 const Section3 = () => {

@@ -17,3 +17,11 @@
 .text-bold {
     font-weight: 900;
 }
+
+.hidden {
+    display: none;
+}
+
+.not-hidden {
+    display: block;
+}

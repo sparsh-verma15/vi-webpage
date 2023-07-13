@@ -4,8 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import './globalStyles.css'
 import './Section1.css'
-import graph from "../images/graphtemp.jpg"
-import { Image } from "react-bootstrap";
 import ChartComponent from "./ChartsComponent";
 
 

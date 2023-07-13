@@ -6,6 +6,7 @@ import Section4 from './Section4';
 import Section5 from './Section5';
 import './globalStyles.css';
 import Section6 from './Section6';
+import Section7 from './Section7';
 
 const Section = () => {
   return (
@@ -40,6 +41,9 @@ const Section = () => {
       <section id="section6">
         <Section6/>
       </section>
+      <sectio id="section7">
+        <Section7/>
+      </sectio>
     </div>
   );
 }
