@@ -7,12 +7,12 @@ import flowchart from "../images/flow-chart.png";
 const Section2 = () => {
 	return (
 		<Container className="text-white">
-			<div className="text-size1">Investment Process</div>
-			<Row>
-				<Col md={6} xs={12}>
+			<div className="text-size1 mb-5">Investment Process</div>
+			<Row className="justify-content-center">
+				<Col md={5} xs={12}>
                     <Image src={flowchart} style={{height:"600px"}}/>
                 </Col>
-				<Col className="text-start" md={6} xs={12}>
+				<Col className="text-start" md={5} xs={12}>
                     <Container>
 					<Row >
 						<div className="text-size3 text-bold ">

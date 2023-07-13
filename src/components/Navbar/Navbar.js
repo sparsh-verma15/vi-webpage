@@ -37,6 +37,16 @@ const Navbar = () => {
 					offset={-70}
 					duration={250}
 				>
+					Section 3
+				</Link>
+				<Link className="navbar-button"
+					activeClass="active"
+					to="section5"
+					spy={true}
+					smooth={true}
+					offset={-70}
+					duration={250}
+				>
 					Team
 				</Link>
 				<Link className="navbar-button"

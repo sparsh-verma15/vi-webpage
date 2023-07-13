@@ -9,7 +9,7 @@ import { Image } from "react-bootstrap";
 
 const Section1 = () => {
 	return (
-		<Container className="text-white pt-md-5 mt-md-5">
+		<Container className="text-white pt-md-5 mt-md-5 text-start">
 			<Row>
 				<Col md={5} xs={12} className="text-size3">
 					<div className="p-2">
@@ -27,7 +27,7 @@ const Section1 = () => {
                         <div>
                             <Image src={graph} fluid/>
                         </div>
-                        <div className="text-size2 text-left">
+                        <div className="text-size2 text-left mt-5">
                         Monthly performance net of fees
                         </div>
 						<Row className="table-row">

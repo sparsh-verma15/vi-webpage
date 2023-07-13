@@ -1,37 +1,65 @@
 import React from "react";
-import "./globalStyles.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import './globalStyles.css'
+import graphLeft from "../images/numari-one-graph.png"
+import graphRight from "../images/numerai-supreme-graph.png"
 
 const Section3 = () => {
 	return (
 		<>
-			<Container className="text-white text-start">
-				<Row className="align-items-center">
-					<Col className="text-size1"> Get in touch</Col>
+			{/* <Container className="text-white text-start">
+				<Row>
 					<Col>
-						If you're an institutional investor, mail us at investing@numer.ai
+						<Row className="text-size1">Numerai One</Row>
+						<Row className="text-size3">Numerai's Flagship Market Neutral Fund</Row>
+                        <Row>
+                            <hr />
+                        </Row>
+						<Row className="text-size4">
+							Numerai One seeks to deliver consistent returns in any market
+							environment with a highly diversified portfolio that is market,
+							country, sector, and factor neutral.
+						</Row>
+                        <Row className="mt-5">
+                            <Image style={{width:"700px"}} src={graphLeft}/>
+                        </Row>
+					</Col>
+					<Col>
+						<Row className="text-size1">Numerai Supreme</Row>
+						<Row  className="text-size3">The Unconstrained Expression of the Meta Model</Row>
+                        <Row>
+                            <hr/>
+                        </Row>
+						<Row  className="text-size4">
+							Built on the same investment framework as Numerai One, Numerai
+							Supreme1 seeks to deliver higher returns with higher volatility.
+							This is achieved through a concentrated portfolio of the Meta
+							Model's highest conviction selections while remaining market
+							neutral.
+						</Row>
+                        <Row className="mt-5">
+                        <Image style={{width:"700px"}}  src={graphRight}/>
+                        </Row>
 					</Col>
 				</Row>
-                <hr/>
-				<Row className="align-items-center" >
-					<Col className="text-size1">Skin in the game incentivizes the crowd.</Col>
-					<Col>
-						Numerai uses cryptocurrency staking to incentivize our global
-						network of data scientists to submit the best possible machine
-						learning models which power our global equity hedge fund. We never
-						trade crypto. But we have created an institutional grade market
-						neutral hedge fund using crypto incentives.
-						<Row>
-							<Col> 5,467</Col>
-							<Col> $13,071,857 </Col>
-						</Row>
-						<Row>
-							<Col>staked AI models power Numerai</Col>
-							<Col>at stake</Col>
-						</Row>
-					</Col>
+			</Container> */}
+			<Container className="text-start text-white">
+				<Row>
+					<Col className="text-size1">Numerai One</Col>
+					<Col className="text-size1">Numerai Supreme</Col>
 				</Row>
-                <hr/>
+				<Row>
+					<Col className="text-size3">Numerai's Flagship Market Neutral Fund <hr/></Col>
+					<Col className="text-size3">The Unconstrained Expression of the Meta Model <hr/></Col>
+				</Row>
+				<Row>
+					<Col>Numerai One seeks to deliver consistent returns in any market environment with a highly diversified portfolio that is market, country, sector, and factor neutral.</Col>
+					<Col>Built on the same investment framework as Numerai One, Numerai Supreme1 seeks to deliver higher returns with higher volatility. This is achieved through a concentrated portfolio of the Meta Model's highest conviction selections while remaining market neutral.</Col>
+				</Row>
+				<Row>
+					<Col><Image fluid  src={graphLeft} /></Col>
+					<Col><Image fluid  src={graphRight} /></Col>
+				</Row>
 			</Container>
 		</>
 	);
