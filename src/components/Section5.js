@@ -59,6 +59,10 @@ const Section5 = () => {
 					</div>
 				</Col>
 			</Row>
+			<br/>
+			<br/>
+			<br/>
+			<hr/>
 		</Container>
 	);
 };
